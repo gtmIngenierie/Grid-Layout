@@ -1,0 +1,24 @@
+/* css */
+
+.grille {
+    display: grid; /* c'est display qui definie le type de boite on utilise */
+    grid-gap: 5px; /* l'espacement des boites */
+    grid-template-columns: auto auto auto auto; /* auto definie la tailles des boites si on a 4 boites on mets alors 4 auto */
+    grid-template-rows: 170px auto 90px; /* a definir plus en profondeur */
+}
+
+.s1{
+background-color: grey;
+}
+
+.s2{
+background-color: blue;
+}
+
+.s3{
+background-color: purple;
+}
+
+.s4{
+background-color: brown;
+}
